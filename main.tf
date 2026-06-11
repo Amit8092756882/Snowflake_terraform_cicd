@@ -7,10 +7,10 @@ terraform {
   }
 
   backend "remote" {
-    organization = "Snowflake_new"
+    organization = "Snowflake_terraform_project_01"
 
     workspaces {
-      name = "gh-actions-demo"
+      name = "gh-action-workflow"
     }
   }
 }
